@@ -1,0 +1,22 @@
+{
+  "name": "bots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --ignore ./wa_credentials .",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "qrcode": "^1.5.3",
+    "telegraf": "^3.38.0",
+    "wa-multi-session": "^3.2.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1"
+  }
+}

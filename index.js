@@ -7,7 +7,7 @@ const whatsapp = require("wa-multi-session");
 
 const WEBHOOK_URL = process.env.WEBHOOK_URL || false
 const SECRET_PATH = process.env.SECRET_PATH || false
-const PORT = Number(process.env.PORT || 8080)
+const PORT = Number(process.env.PORT || 3000)
 
 const app = express();
 
